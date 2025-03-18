@@ -1,0 +1,14 @@
+node_modules/
+.env
+.DS_Store
+npm-debug.log
+dist/
+coverage/
+*.log
+__pycache__/
+
+cbsistema-backend/node_modules/
+cbsistema-backnend/.env
+
+cbsistema-frontend/node_modules/
+cbsistema-frontend/.env

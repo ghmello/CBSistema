@@ -1,0 +1,213 @@
+﻿.body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #ffffff;
+    color: #333333;
+}
+
+.loading-screen {
+    margin: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #666666;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.page-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    margin-top: 0;
+    color: #333333;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    max-width: 800px;
+    margin-top: 16px;
+}
+
+.error {
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #0f4c75;
+    border-color: #0f4c75;
+    color: #ffffff;
+}
+
+    .btn-primary:hover {
+        background-color: #1b6ca8;
+        border-color: #1b6ca8;
+    }
+
+.btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: #ffffff;
+}
+
+    .btn-danger:hover {
+        background-color: #c0392b;
+        border-color: #c0392b;
+    }
+
+.btn-success {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+    color: #ffffff;
+}
+
+    .btn-success:hover {
+        background-color: #27ae60;
+        border-color: #27ae60;
+    }
+
+.card {
+    border: none;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333333;
+}
+
+.card-text {
+    color: #666666;
+}
+
+.table {
+    margin-top: 16px;
+    color: #333333;
+}
+
+    .table thead th {
+        background-color: #0f4c75;
+        color: #ffffff;
+    }
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(15, 76, 117, 0.05);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(15, 76, 117, 0.1);
+}
+
+.alert {
+    border-radius: 8px;
+    color: #333333;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+    .form-control:focus {
+        border-color: #1b6ca8;
+        box-shadow: 0 0 0 0.2rem rgba(27, 108, 168, 0.25);
+    }
+
+.navbar {
+    background-color: #f0f0f0; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.nav-link {
+    color: #000000 !important; 
+}
+
+    .nav-link.active {
+        color: #1b6ca8 !important; 
+    }
+
+.badge {
+    font-size: 0.875rem;
+    padding: 0.5em 0.75em;
+    border-radius: 12px;
+}
+
+.badge-danger {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+.badge-warning {
+    background-color: #f39c12;
+    color: #ffffff;
+}
+
+.badge-success {
+    background-color: #2ecc71;
+    color: #ffffff;
+}
+
+.login-page {
+    background: #ffffff;
+}
+
+    .login-page .card {
+        background: #ffffff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-page .card-title {
+        color: #333333;
+    }
+
+    .login-page .form-control {
+        background-color: #ffffff;
+        border-color: #cccccc;
+        color: #333333;
+    }
+
+    .login-page .btn-primary {
+        background-color: #0f4c75;
+        border-color: #0f4c75;
+        color: #ffffff;
+    }
+
+        .login-page .btn-primary:hover {
+            background-color: #1b6ca8;
+            border-color: #1b6ca8;
+        }
